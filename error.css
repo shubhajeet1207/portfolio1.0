@@ -1,0 +1,41 @@
+.page_404 {
+  padding: 40px 0;
+  background: #fff;
+  font-family: "Poppins", sans-serif;
+}
+.page_404 img {
+  width: 100%;
+}
+.four_zero_four_bg {
+  background-image: url(404.gif);
+  height: 400px;
+  background-position: center;
+}
+.four_zero_four_bg h1 {
+  font-size: 80px;
+  font-family: "Poppins", sans-serif;
+  color: #e3001a;
+}
+.four_zero_four_bg h3 {
+  font-size: 20px;
+}
+.link_404 {
+  color: #fff !important;
+  padding: 5px 25px;
+  background: #5b50fa;
+  margin: 35px 0;
+  display: inline-block;
+  border-radius: 25px;
+  text-decoration: none;
+}
+.content_box_404 {
+  margin-top: -90px;
+  margin-left: 50px;
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.content_box_404 h3 {
+  margin-top: 0px;
+  margin-left: 50px;
+}
