@@ -1,11 +1,11 @@
-/* reset */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
   body{
-    background-color: #ffc6bb;
+    background-color: #fff4be;
     margin: 0;
     padding: 0;
     border: 0;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
   }
   /* main */
   
@@ -111,10 +111,9 @@
     transform: translate(-65%,-40%);
   }
 
-  
-  .card:last-child { opacity: 0; }
-  
-
+  .card:last-child { 
+    opacity: 0; 
+  }
   
   .title {
     font-size: 36px;
@@ -140,13 +139,8 @@
   }
   
   .background-one {
-  background-color: #d1d8ec;
-}
-.background-two {
-  background-color: #d1d8ec;
-}
-.background-three {
-  background-color: #d1d8ec;
+  background-color: #7490ff;
+  border-radius: 15%;
 }
 .link-container {
   display: flex;
@@ -162,7 +156,7 @@ a {
   font-size: 28px;
 }
 .link-one {
-  color: #53d9d1;
+  color: #fff;
   transition: color 1s cubic-bezier(0.32, 0, 0.67, 0);
   line-height: 70vh;
   padding: 80px;
@@ -179,7 +173,8 @@ a {
   height: 100%;
   top: 0;
   right: 0;
-  background-color: #53d9d1;
+  background-color: #d8fd38;
+  border-radius: 15%;
 
   clip-path: circle(0% at 50% calc(50%));
   transition: clip-path 1s cubic-bezier(0.65, 0, 0.35, 1);
