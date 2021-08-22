@@ -1,0 +1,222 @@
+/* reset */
+
+  body{
+    background-color: #ffc6bb;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Nunito', sans-serif;
+  }
+  /* main */
+  
+  .container {
+    position: relative;
+    width: 350px;
+    height: 440px;
+    
+  }
+  .column {
+    float: left;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .card {
+    margin-top: 190px;
+    position: absolute;
+    top: 0;
+    left: 58%;
+    width: 250px;
+    height: 250px;
+    border-radius: 4px;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transition: 0.4s cubic-bezier(0.28, 0.55, 0.385, 1.65);
+    transition: 0.4s cubic-bezier(0.28, 0.55, 0.385, 1.65);
+    cursor: pointer;
+  }
+  .card img{
+      width: 100%;
+      height: 80%;
+      border-radius: 20px;
+  }
+  .card:nth-child(1) {
+    z-index: 10;
+    top: 0px;
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  
+  .card:nth-child(2) {
+    z-index: 9;
+    top: -15px;
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    transform: translate(-20%,-10%);
+
+  }
+  
+  .card:nth-child(3) {
+    z-index: 8;
+    top: -30px;
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    transform: translate(-35%,-20%);
+
+  }
+  
+  .card:nth-child(4) {
+    z-index: 7;
+    top: -45px;
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7);
+    transform: translate(-50%,-30%);
+
+  }
+  
+  .card:nth-child(5) {
+    z-index: 6;
+    top: -60px;
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+    transform: translate(-65%,-40%);
+  }
+  .card:nth-child(6) {
+    z-index: 6;
+    top: -60px;
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+    transform: translate(-65%,-40%);
+  }
+
+  
+  .card:last-child { opacity: 0; }
+  
+
+  
+  .title {
+    font-size: 36px;
+    font-weight: 300;
+    color: #FFF;
+    text-align: center;
+    margin-top:150px;
+  }
+  
+  .title p {
+    padding: 10px 0 0;
+    font-size: 12px;
+    opacity: 0.8;
+  }
+  
+  .container { 
+    margin: 100px auto; }
+  
+  .card {
+    color: rgba(0, 0, 0, 0.2);
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  .background-one {
+  background-color: #d1d8ec;
+}
+.background-two {
+  background-color: #d1d8ec;
+}
+.background-three {
+  background-color: #d1d8ec;
+}
+.link-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: relative;
+  z-index: 0;
+}
+a {
+  font-family: "Nunito", sans-serif;
+  font-size: 28px;
+}
+.link-one {
+  color: #53d9d1;
+  transition: color 1s cubic-bezier(0.32, 0, 0.67, 0);
+  line-height: 70vh;
+  padding: 80px;
+}
+.link-one:hover {
+  color: #111;
+  transition: color 1s cubic-bezier(0.33, 1, 0.68, 1);
+}
+.link-one::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-color: #53d9d1;
+
+  clip-path: circle(0% at 50% calc(50%));
+  transition: clip-path 1s cubic-bezier(0.65, 0, 0.35, 1);
+}
+.link-one:hover::before {
+  clip-path: circle(100% at 50% 50%);
+}
+.link-one::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-color: #151515;
+  clip-path: polygon(
+    40% 0%,
+    60% 0%,
+    60% 0%,
+    40% 0%,
+    40% 100%,
+    60% 100%,
+    60% 100%,
+    40% 100%
+  );
+  transition: clip-path 1s cubic-bezier(0.65, 0, 0.35, 1);
+}
+.link-one:hover::after {
+  clip-path: polygon(
+    40% 10%,
+    60% 10%,
+    60% 35%,
+    40% 35%,
+    40% 90%,
+    60% 90%,
+    60% 65%,
+    40% 65%
+  );
+}
