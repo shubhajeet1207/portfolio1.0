@@ -2,35 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>TOMBYS Music | Overview</title>
 </head>
 <body>
-    <div class="container">
-        <div class="box">
-            <span class="active" data-index="0">
-                <h4>Interface</h4>
-            </span>
-        </div>
-        <div class="boxes">
-           <div class="arrow"></div>
-            <div class="price__boxes">
-                <div class="price__box show" >
-                    <div class="list__item">
-                    <img src="tombys.jpg" class="overview">
-                    </div>
+    <div class="row">
+        <div class="column">
+            <div class="container">
+                <div data-card="5" class="card">
+                    <img src="./images/tombys6.jpg" alt="">
+                </div>
+                <div data-card="4" class="card">
+                    <img src="./images/tombys5.jpg" alt="">
+                </div>
+                <div data-card="3" class="card">
+                    <img src="./images/tombys4.jpg" alt="">
+                </div>
+                <div data-card="2" class="card">
+                    <img src="./images/tombys3.jpg" alt="">
+                </div>
+                <div data-card="1" class="card">
+                    <img src="./images/tombys2.jpg" alt="">
+                </div>
+                <div data-card="0" class="card">
+                    <img src="./images/tombys.jpg" alt="">
                 </div>
             </div>
-            <div class="buttons">
-                <button class="">
-                    <a href="https://tombysmusic.netlify.app/">Go to Webpage &#x21AA</a>
-                </button>
-            </div>
-        </div>     
-    </div>
-
+        </div>
+        <div class="column right-content">
+            <div class="background-two link-container">
+             <a class="link-two" href="https://tombysmusic.netlify.app/">TOMBYs Music Player</a>
+      </div>
+        </div>
+      </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="main.js"></script>
 </body>
 </html>

@@ -2,43 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overview | Login-SignUp Page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Login-Signup | Overview</title>
 </head>
 <body>
-    <div class="container">
-        <div class="box">
-            <span class="active" data-index="0">
-                <h4>Login</h4>
-            </span>
-            <span data-index="1">
-                <h4>SignUp</h4>
-            </span >
-        </div>
-        <div class="boxes">
-            <div class="arrow"></div>
-            <div class="price__boxes">
-                <div class="price__box show" >
-                    <div class="list__item">
-                        <img src="login.jpg" class="overview">
-                    </div>
+    <div class="row">
+        <div class="column">
+            <div class="container">
+                <div data-card="1" class="card">
+                    <img src="./images/login.jpg" alt="">
                 </div>
-                <div class="price__box" data-index="2">
-                    <div class="list__item">
-                        <img src="signup.jpg" class="overview">
-                    </div>
+                <div data-card="0" class="card">
+                    <img src="./images/signup.jpg" alt="">
                 </div>
-              </div>
-            <div class="buttons">
-                <button class="">
-                    <a href="https://login-sign-upform.netlify.app/">Go to Webpage &#x21AA</a>
-                </button>
             </div>
-        </div>     
-    </div>
-
+        </div>
+        <div class="column right-content">
+           <div class="background-three link-container">
+             <a class="link-three" href="">LogIn-SignUp</a>
+          </div>
+        </div>
+      </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
