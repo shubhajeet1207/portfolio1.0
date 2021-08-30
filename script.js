@@ -26,6 +26,7 @@ $( document ).ready(function() {
 	var windowSize = $( window ).width();
 
 	// Getting mouse move and animating div and images
+
 	function mouseMove() {
 
 		$( ".js-Home-desktop-wrapper" ).mousemove(function( event ) {
@@ -40,6 +41,7 @@ $( document ).ready(function() {
 				});
 
 				// Image translation
+	
 				$(".js-Side-left-image").css({
 					"margin-left": -windowSize - move+(mouseX-(windowSize/2))/40,
 				});
