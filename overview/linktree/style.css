@@ -45,8 +45,8 @@
     cursor: pointer;
   }
   .card img{
-      width: 150%;
-      height: 110%;
+      width: 130%;
+      height: 80%;
       border-radius: 20px;
   }
   .card:nth-child(1) {
@@ -157,8 +157,8 @@ a {
 .link-one {
   color: #fff;
   transition: color 1s cubic-bezier(0.32, 0, 0.67, 0);
-  line-height: 70vh;
-  padding: 80px;
+  line-height: 200%;
+  padding: 160px;
 }
 .link-one:hover {
   color: #111;
@@ -213,4 +213,66 @@ a {
     60% 65%,
     40% 65%
   );
+}
+
+  /*media queeries */
+
+
+@media screen and (max-width:1024px){
+  .container{
+      margin-right: 15rem;
+  }
+  
+  .link-one {
+      line-height: 35rem;
+  }
+}
+
+
+@media screen and (max-width:991px){
+  .container {
+    width: 217px;
+  }
+
+  .card img{
+      width: 80%;
+      height: 50%;
+      border-radius: 10px;
+  }
+  .container{
+      margin-right: 15rem;
+  }
+  
+  .link-one {
+      line-height: 35rem;
+      padding: 90px;
+  }
+}
+
+@media screen and (max-width:767px){
+  .container{
+      margin-left: 85rem;
+  }
+  
+  .link-one {
+      line-height: 35rem;
+  }
+}
+
+@media screen and (max-width:480px){
+  .container{
+      margin-right: 87rem;
+      bottom: 20%;
+      width: 217px;
+  }
+
+  .card img{
+      width: 70%;
+      height: 50%;
+      border-radius: 10px;
+  }
+  
+  .link-one {
+      line-height: 35rem;
+  }
 }
