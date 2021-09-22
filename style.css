@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,300,300i,400,400i,700,700i,900,900i');
 @import url('https://fonts.cdnfonts.com/css/anurati');
 @import url('https://fonts.cdnfonts.com/css/nasalization-2');
-@import url('https://fonts.cdnfonts.com/css/elianto');
 
 
 html, body{
@@ -122,7 +121,7 @@ h2{
 }
 p {
     margin: 25px 15px 10px;
-    font-family: "Elianto", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 .btn a{
   display:block;
